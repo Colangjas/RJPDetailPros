@@ -1,0 +1,7 @@
+[28-Mar-2015 23:19:52 America/Denver] PHP Notice:  Undefined index: first_name in /home1/juicingm/public_html/rjpdetail/email.php on line 29
+[28-Mar-2015 23:19:52 America/Denver] PHP Notice:  Undefined index: email in /home1/juicingm/public_html/rjpdetail/email.php on line 30
+[28-Mar-2015 23:19:52 America/Denver] PHP Notice:  Undefined variable: first_name in /home1/juicingm/public_html/rjpdetail/email.php on line 35
+[30-Mar-2015 19:26:53 America/Denver] PHP Notice:  Undefined variable: first_name in /home1/juicingm/public_html/rjpdetail/email.php on line 38
+[30-Mar-2015 19:55:46 America/Denver] PHP Notice:  Undefined variable: first_name in /home1/juicingm/public_html/rjpdetail/email.php on line 38
+[30-Mar-2015 19:57:17 America/Denver] PHP Notice:  Undefined variable: first_name in /home1/juicingm/public_html/rjpdetail/email.php on line 38
+[30-Mar-2015 19:57:23 America/Denver] PHP Notice:  Undefined variable: first_name in /home1/juicingm/public_html/rjpdetail/email.php on line 38

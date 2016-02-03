@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+body {
+	background-color: rgb(30,5,30);
+	box-shadow: 0px 0px 500px 20px #000000 inset;
+}
+
+div#inner {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	max-width: 960px; min-width: 320px;
+    margin: 0 auto;
+}
+
+div#upper {
+	background: -webkit-linear-gradient(right, rgb(10,5,10), #ffffff, #a2000d, #a2000d, #a2000d, #96005c,  #4f0031); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgb(10,5,10), #ffffff, #a2000d, #a2000d, #a2000d, #96005c, #4f0031); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgb(10,5,10), #ffffff, #a2000d, #a2000d, #a2000d, #96005c, #4f0031); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(right, rgb(10,5,10), #ffffff, #a2000d, #a2000d, #a2000d, #96005c, #4f0031); /* Standard syntax */
+	height: 50px;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: white;
+}
+
+p {
+	color: white;
+	margin-top: 5px;
+}
+
+header {
+	float: left;
+	border-radius: 5px;
+	padding: 8px;
+	color: #ffffff;
+}
+
+nav {margin: 0 5px;}
+
+nav ul {
+	}
+
+nav ul li{
+	display: inline;
+	padding: 5px;
+	font-size: 1.5em;
+	background-color: black;
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #f4e60a;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+article {
+	clear: both;
+	width: 960;
+	height: 700;
+	background-color: white;
+	border-radius: 5px;
+}
+
+article#main {
+    background-image: url('images/background.jpg');
+}
+
+article#pack {
+    background-image: url('images/background2.jpg');
+}
+
+article#care {
+    background-image: url('images/background3.jpg');
+}
+
+article#cont {
+    background-image: url('images/background4.jpg');
+}
+
+article#mail {
+    background-image: url('images/background5.jpg');
+}
+
+article#bronze1 {
+    background-image: url('images/background6.jpg');
+}
+
+article#silver1 {
+    background-image: url('images/background7.jpg');
+}
+
+article#gold1 {
+    background-image: url('images/background8.jpg');
+}
+
+article#plat1 {
+    background-image: url('images/background9.jpg');
+}
+
+article#red1 {
+    background-image: url('images/background10.jpg');
+}
+
+article#order {
+    background-image: url('images/background11.jpg');
+}
+
+section {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+	color: white;
+}
+
+section#dark {
+  background: -webkit-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* Standard syntax */
+}
+
+section#dark2 {
+  background-color: rgba(0,0,0,0.5); 
+  padding: 40px;
+ /*  box-shadow: 4px 4px 10px 10px rgba(0,0,0,0.5); */
+}
+
+section#low {
+	margin-top: 300px;
+	margin-left: 300px;
+}
+
+strong#extreme {
+	color: red;
+}
+
+table {
+	background-color: rgba(0,0,0,0.8);
+	margin: 0 auto;
+	font-size: 1.5em;
+	color: white;
+}
+
+th, td {
+	padding: 5px;
+}
+
+th, td {
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	margin: 2px;
+}
+
+#bronze {
+	background-color: #68533f;
+	text-shadow: 4px 4px 8px #000000;
+}
+#silver {
+	background-color: #d5e5e9;
+	text-shadow: 4px 4px 8px #282244;
+}
+
+#gold {
+	background-color: #dac800;
+	text-shadow: 4px 4px 8px #000000;
+}
+
+#plat {
+	background-color: #dbe1ec;
+	text-shadow: 4px 4px 8px #282244;
+}
+
+#red {
+	background-color: #d60000;
+	text-shadow: 4px 4px 8px #000000;
+}
+
+
+form {
+	margin: 20px;
+}
+
+fieldset {
+	width: 300px;
+}
+
+label.field {
+	text-align: right;
+	width: 120px;
+	float: left;
+}
+
+fieldset p {
+	clear: both;
+	padding: 5px;
+}
+
+input, textarea, select, button {
+  width : 150px;
+  margin: 0;
+  position: relative;
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+textarea {
+	width : 300px;
+	height: 57px;
+}
+
+label#mess {
+	display: inline;
+	float: left;
+}
+
+input['button'] {
+	padding-right: 500px;
+}
+
+
+footer {
+	border-radius: 5px;
+	background: -webkit-linear-gradient(right, #000000, #ffffff, #a2000d, #a2000d, #a2000d, #96005c,  #4f0031); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #000000, #ffffff, #a2000d, #a2000d, #a2000d, #96005c, #4f0031); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #000000, #ffffff, #a2000d, #a2000d, #a2000d, #96005c, #4f0031); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(right, #000000, #ffffff, #a2000d, #a2000d, #a2000d, #96005c, #4f0031); /* Standard syntax */
+	padding: 5px;
+	
+}
+
+

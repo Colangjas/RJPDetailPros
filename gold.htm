@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>RJP Detail Pros</title>
+		<meta charset="UTF-8" />
+		<link href="EricMeyerReset.css" rel="stylesheet" />
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="inner">
+			<div id="upper">
+			<header>
+				<h1>RJP Detail Pros</h1>
+			</header>
+			<nav>
+				<ul>
+					<a href="index.htm"><li>Schedule</li></a>
+					<a href="package.htm"><li>Packages</li></a>
+					<a href="care.htm"><li>Personal Care</li></a>
+					<a href="contact.htm"><li>Contact</li></a>
+				</ul>
+			</nav>
+			</div>
+			<article id="gold1">
+				<section id="dark2">
+					<h2 id="gold">Gold Package</h2>
+					<p>Starting at $100 for Mid-Size Cars </p>
+					<p>Complete Exterior Wash - Remove Bugs, Tree Sap, Road Tar, Clean Tires and Rims.
+						Complete Interior Shampoo, Clean and Disinfect all Trim Panels, 
+						Clean all Windows, and Clean Headliner.
+						</p>
+						<p><a href="package.htm">Back to Packages</a></p>
+				</section>
+				<section id="dark2">
+					<h2>Order Form</h2>
+					<form action="order.php" method="post">
+						<fieldset>
+							<p><label class="field" for="package">Package: </label>
+							<input list="package" name="package" required>
+							  <datalist id="package">
+								<option value="Bronze - $50">
+								<option value="Silver - $75">
+								<option value="Gold - $100">
+								<option value="Platinum - $175">
+								<option value="3 Step Polish - $175">
+							  </datalist></p>
+						
+							<p><label class="field" for="date">Preferred Clean Date: </label>
+							<input type="date" name="date" size="20" required /></p>
+						
+							<p><label class="field" for="vehicle">Vehicle: </label>
+							<input type="text" name="vehicle" size="20" placeholder="year make and model" required /></p>
+						
+							<p><label class="field" for="name">Full Name: </label>
+							<input type="text" name="name" size="20" required /></p>
+							
+							<p><label class="field" for="phone">Phone Number: </label>
+							<input type="text" name="phone" size="16" required /></p>
+							
+							<p><label class="field" for="mail">E-mail: </label>
+							<input type="text" name="mail" size="23" required /></p>
+						</fieldset>
+						<label id="mess" for="message">Comments: </label><br />
+						<textarea name="message" cols="45" rows="2"></textarea><br />
+						
+						<input type="submit" name="submit" value="Submit Order" />
+						
+					</form>
+					</section>
+			</article>
+			<footer>
+				<p>Copyright&copy; 2015 rjpdetail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find Us On Facebook <a href="https://www.facebook.com/pages/RJP-Detail-Pros/179885832060884?fref=ts" target="_blank"><img src="images/facebook.png" alt="Mother's Polishes and Wax" /></a></p>
+			</footer>
+		</div>
+	</body>
+</html>
